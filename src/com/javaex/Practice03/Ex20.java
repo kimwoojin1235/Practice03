@@ -27,10 +27,9 @@ public class Ex20 {
 				}
 				
 			}else if (num<a) {
-				System.out.print(">>");
 				System.out.println("더 낮게");
 			}else {
-				System.out.print(">>");
+
 				System.out.println("더 높게");
 			}
 			
