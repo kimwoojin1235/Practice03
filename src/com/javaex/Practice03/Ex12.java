@@ -15,7 +15,7 @@ public class Ex12 {
 		i = sc.nextInt();
 		
 		for (int x = 1; x <= i; x++) {//x가i와 같아지게 증가
-			n =n*x; //증가할때마다 곱해지고 n은 곱해진 값으로변한다.
+			n *=x; //증가할때마다 곱해지고 n은 곱해진 값으로변한다.
 		}
 		System.out.print("결과값: "+n);
 	}

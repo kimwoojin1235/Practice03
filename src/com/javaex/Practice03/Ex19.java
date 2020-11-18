@@ -6,7 +6,6 @@ public class Ex19 {
 
 	public static void main(String[] args) {
 		int deposit = 0;
-		int Coinone= 0;
 		Scanner sc =new Scanner(System.in);
 		while (true) {
 			System.out.println("----------------------------");
@@ -17,13 +16,13 @@ public class Ex19 {
 			if (num==1) {
 				System.out.print("예금액>");
 				int sum = sc.nextInt();
-				deposit = sum;
+				deposit += sum;
 			}else if (num==2) {
 				System.out.print("출금액>");
 				int i = sc.nextInt();
-				Coinone = deposit - i;
+				deposit=deposit-i;
 			}else if (num==3) {
-				System.out.println("잔고액>"+Coinone);
+				System.out.println("잔고액>"+deposit);
 			}else if (num==4) {
 				System.out.println("프로그램 종료");
 				break;
