@@ -15,7 +15,8 @@ public class Ex20 {
 			int a = sc.nextInt();
 			if (num==a) {
 				System.out.println("정답입니다.");
-				System.out.println("게임을 종료 하시겠습니까?(y/n)");
+				System.out.print("게임을 종료 하시겠습니까?(y/n)");
+				System.out.print(">>");
 				char y=sc.next().charAt(0);
 				if (y=='y') {
 					System.out.println("----------------------------");
@@ -24,7 +25,7 @@ public class Ex20 {
 					break;
 				}else if (y=='n') {
 					System.out.println("----------------------------");
-					System.out.println("       [숫자 맟추기 게임]        ");
+					System.out.println("      [숫자 맟추기 게임시작]        ");
 					System.out.println("----------------------------");
 				continue;
 				}
